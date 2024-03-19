@@ -1,0 +1,1 @@
+--INSERT INTO usuario (idusuario, email, password,name,direccion) VALUES  (1,'sasfda@asdasd.com','123123','pepe','casa');
