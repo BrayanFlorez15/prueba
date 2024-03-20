@@ -8,7 +8,8 @@ import java.util.Optional;
 
 @Repository
 public interface usuarioRepositorio extends JpaRepository<usuario,Long> {
-//metodos para el crud jpa
-    public Optional<usuario> findById(Long id);
 
+
+
+//metodos para el crud jpa
 }
