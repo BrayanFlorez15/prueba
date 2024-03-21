@@ -15,4 +15,5 @@ public interface UsuarioService {
     public usuario guardarUsiario(usuario user);
     public usuario actualizarUsuario( usuario detalleUsuario);
 
+
 }

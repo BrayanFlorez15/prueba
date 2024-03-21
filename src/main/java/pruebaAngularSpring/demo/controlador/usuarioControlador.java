@@ -20,11 +20,28 @@ public class usuarioControlador {
 
     @Autowired
     private UsuarioService usuarioService;
+
+
     //metodo para listar los usuarios registrados
     @GetMapping("/usuario")
     public List<usuario> listarTodosLosUsuarios(){
         return usuarioService.listarTodosLosUsuarios();
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     //metodo para guardar por metodo post los usuarios
     @PostMapping("/usuario")
     public usuario guardar(@RequestBody usuario user){

@@ -38,4 +38,6 @@ public class UsuarioServiceImpl implements UsuarioService {
     public usuario actualizarUsuario(usuario detalleUsuario) {
         return usuarioRepositorio.save(detalleUsuario);
     }
+
+
 }
